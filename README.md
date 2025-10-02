@@ -57,12 +57,4 @@ The training required building a clean, balanced dataset from mixed-source input
 
 ***
 
-## Suggested Image Placeholders
 
-To make your `README.md` visually appealing and informative, include these images:
-
-| Section | Image Suggestion | Placeholder |
-| :--- | :--- | :--- |
-| **Project Overview** | A simple, clear diagram showing a user uploading a geo-tagged image and the model classifying it. |  |
-| **Model Performance** | The final **Training & Validation Accuracy/Loss Plot** for the 30-epoch training run. (This is the most crucial visualization.) |  |
-| **Technical Details** | An image showing the **three final output classes** for the ensemble (e.g., three separate cropped examples of a Pothole, a Manhole, and a Normal road). |  |
