@@ -42,16 +42,26 @@ The **Soft Voting Ensemble** successfully increased accuracy by leveraging the m
 
 ***
 
+
+
 ## Dataset Preparation
 
 The training required building a clean, balanced dataset from mixed-source inputs.
 
-* **Total Final Images:** **4020** (Images that are either Pothole, Manhole, or Normal road).
+* **Total Final Images:** **4020 images** (Images that are either Pothole, Manhole, or Normal road).
 * **Class Distribution:** The final distribution is highly balanced, with each class representing approximately $32.2\%$ to $35.0\%$ of the total data, eliminating class bias.
 * **Data Integrity:** A dedicated script was used to remove corrupted and irrelevant stylized/cartoon files from the dataset, ensuring the model only trained on real-world road features.
-* **Augmentation Strategy:** Controlled augmentation (Rotation, Blur, Brightness) was applied to the initial set of images to boost diversity without causing compounding redundancy.
+* **Augmentation Strategy: Controlled Diversity**
+
+    The dataset was expanded using **controlled augmentation** to boost diversity without causing compounding redundancy. The strategy created three unique variations for every original image:
+    1.  **Rotation:** $90^{\circ}$ rotation to introduce different angular perspectives.
+    2.  **Blur:** Application of a mild Gaussian Blur (or equivalent `ImageFilter.BLUR`) to simulate varying camera focus, weather conditions, or motion blur.
+    3.  **Brightness Adjustment:** Increase in brightness (using a factor of $1.5$) to simulate different lighting conditions (e.g., bright sun or poor camera exposure).
+
+    This process ensured a controlled **$4\times$ dataset increase** (1 Original + 3 Augmented) where each augmentation was applied only to the base image, preventing the creation of redundant, over-augmented files.
 
 ***
+
 
 ## Future Goals and Deployment
 
