@@ -1,8 +1,4 @@
-This is the perfect way to wrap up your project. A professional `README.md` should clearly communicate the *value* (the problem you solved) and the *technical depth* (the methods you used).
 
-Here is the complete `README.md` file for your GitHub repository.
-
-***
 
 # Road-Hazard-Classification-Ensemble
 
