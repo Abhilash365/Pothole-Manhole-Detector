@@ -1,6 +1,6 @@
 
 
-# Pothole-Manhole-Classification-Ensemble
+# Pothole-Manhole-Verification-Ensemble
 
 ## Project Overview
 
