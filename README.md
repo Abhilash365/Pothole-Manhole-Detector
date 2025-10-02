@@ -27,7 +27,7 @@ The **Soft Voting Ensemble** successfully increased accuracy by leveraging the m
 
 | Model Name | Base Architecture | Final Layer (Classes) | Total Epochs | Stable Learning Rate |
 | :--- | :--- | :--- | :--- | :--- |
-| **Model 1** | InceptionV3 | `Dense(3, softmax)` | 40 | $10^{-5}$ |
+| **Model 1** | InceptionV3 | `Dense(3, softmax)` | 20 | $10^{-5}$ |
 | **Model 2** | InceptionResNetV2 | `Dense(3, softmax)` | 20 | $10^{-5}$ |
 
 **Key Technical Details:**
