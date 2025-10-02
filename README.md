@@ -8,8 +8,8 @@ This project implements a high-accuracy, three-class image classification system
 
 The system achieves maximum robustness and accuracy by utilizing a **Deep Learning Ensemble** approach, ensuring reliable data for warnings against road damage and uncovered manholes, which pose severe risks, especially during heavy rain or flood conditions.
 
+<div align="center"> <img width="512" height="430" alt="OverView_IMG" src="https://github.com/user-attachments/assets/00197351-4466-4d2a-aa98-ee0b7f88cf2b" /></div>
 
-<img width="512" height="430" alt="OverView_IMG" src="https://github.com/user-attachments/assets/00197351-4466-4d2a-aa98-ee0b7f88cf2b" />
 
 
 ***
