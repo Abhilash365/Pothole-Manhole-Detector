@@ -1,6 +1,6 @@
 
 
-# Road-Hazard-Classification-Ensemble
+# Pothole-Manhole-Classification-Ensemble
 
 ## Project Overview
 
