@@ -25,7 +25,7 @@ The **Soft Voting Ensemble** successfully increased accuracy by leveraging the m
 | Metric | InceptionV3-only | InceptionResNetV2-only | **Soft Voting Ensemble** |
 | :--- | :--- | :--- | :--- |
 | **Validation Accuracy** | 94.75% | 95.00% | **96.00%** |
-| **Final Loss** | 0.0857 | 0.1502 | N/A (Averaged Probabilities) |
+| **Final Loss** | 0.1549 | 0.1502 | N/A (Averaged Probabilities) |
 
 ### Model Architecture and Training
 
